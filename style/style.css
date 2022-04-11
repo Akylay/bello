@@ -1,0 +1,701 @@
+@import "./fonts.css";
+/* General settings */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button{
+    border: none;
+    background: none;
+}
+/* General settings */
+
+/* Unique settings */
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.orange__btn{
+    width: 220px ;
+    height: 61px;
+    background: #F46752;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.container{
+    max-width: 1120px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.section__subtitle{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #F46752;
+}
+.section__title{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    color: #1D253C;
+}
+.section__desc{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5A6482;
+}
+.section__btn{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #126F86;
+}
+/* Unique settings */
+
+/* Header section */
+.header{
+    height: 105px;
+    background: #FFFFFF;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    padding: 0 60px;
+}
+.header__link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D253C;
+    margin-left: 35px;
+    transition: .3s;
+}
+.header__link:hover{
+    border-bottom: 1px solid #007188;
+    color: #007188;
+}
+.header__btn{
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    border-radius: 4px;
+    width: 161px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1D253C;
+    margin-left:39px;
+}
+.header__login{
+    font-wesectionight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D253C;
+}
+/* Header section */
+
+/* Hero section */
+.hero{
+    height: 100vh;
+    background: url("../images/hero img.png") no-repeat right;
+    padding: 223px 0 0 106px;
+}
+.hero__info{
+    width: 450px;
+}
+.hero__subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F46752;
+    text-transform: uppercase;
+}
+.hero__title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    color: #1D253C;
+    text-transform: uppercase;
+}
+.hero__desc{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #5A6482;
+    margin: 26px 0 40px;
+}
+/* Hero section */
+
+/* Future section */
+.future{
+    padding: 85px 0;
+    background: #F9F5F2;
+}
+.future__img{
+    padding: 31px 43px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+}
+.future__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+    margin-top: 20px;
+}
+.future__text:before{
+    content: "*";
+    color:#F46752;
+}
+.future__right{
+    width: 456px;
+    margin-top: 83.2px;
+}
+.future__title{
+    margin: 26px 0 19px;
+}
+.future__btn{
+    margin-top: 32px;
+}
+/* Future section */
+/* Technology section */
+.technology__left{
+    margin-top: 126.62px;
+}
+.technology{
+    height: 882px;
+    background: #FFFFFF;
+    padding: 148px 0 163px;
+}
+.technology__btn{
+    font-weight: 400;
+    margin-top: 15px;
+}
+.technology__desc{
+    width: 483px;
+}
+.technology__title{
+    font-weight: 500;
+    margin: 27px 0 35px;
+}
+.technology__img{
+    position: relative;
+}
+.technology__img img{
+    position: relative;
+    z-index: 2;
+}
+.technology__right svg{
+    position: absolute;
+    top: -35px;
+    left: -45px;
+    z-index: 1;
+}
+.technology__right_btn{
+    position: absolute;
+    height: 67px;
+    width:326px ;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1D253C;
+    bottom: -25px;
+    left: -60px;
+    z-index: 3;
+
+}
+/* Technology section */
+/* Insurance section */
+.insurance{
+    position: relative;
+    height: 723px;
+    background: #F8F8F8;
+    padding: 91px 0 85px;
+    text-align: center;
+}
+.insurance__umbrella{
+    position: absolute;
+    top: -110px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.insurance__dog{
+    position:absolute;
+    bottom: -30px;
+    right:0;
+}
+.insurance__title{
+    font-size: 43px;
+    margin: 30px 0 37px;
+}
+.insurance__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 70px;
+    margin-top: 41px;
+}
+.insurance__card{
+    Width :320px;
+    Height :310px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+}
+.insurance__card a{
+    text-decoration-line: underline;
+    color: #1D253C;
+}
+.card__title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #1D253C;
+}
+.card__desc{
+    font-weight: 400;
+    line-height: 26px;
+    color: #5A6482;
+}
+.card__img1{
+    margin-top: 70px;
+}
+.card__title1{
+    margin: 15px 0 5px;
+}
+.card__desc1{
+    font-size: 12px;
+}
+.card__img2{
+    margin-top: 30px;
+}
+.card__desc2{
+    font-size: 11px;
+    margin-top: 15px;
+}
+.card__img3{
+    margin-top: 44px;
+}
+.card__desc3{
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* Insurance section */
+/* Steps section */
+.steps{
+    height: 746px;
+    background: #363839;
+    padding: 120px 0 101px;
+    text-align: center;
+}
+.steps__subtitle{
+    font-weight: 500;
+}
+.steps__title{
+    font-size: 44px;
+    margin: 26px 0 15px;
+    color: #FFFFFF;
+}
+.steps__desc{
+    color: #ACB4BF;
+    margin-bottom: 63px;
+}
+.step__price{
+    width: 234px;
+}
+.step__apply{
+    width: 234px;
+    margin: 0 121px 0 133px;
+}
+.step__covered{
+    width: 264px;
+}
+.step{
+    padding: 84px 56px 0 66px;
+    position: relative;
+}
+.drop1{
+    position: absolute;
+    top: -12.76px;
+    left: 78.26px;
+}
+.drop2{
+    position: absolute;
+    top: 0.67px;
+    left: 347.43px;
+}
+.number1{
+    position: absolute;
+    top: 3.62px;
+    left: 167px;
+    z-index: 3;
+}
+.number2{
+    position: absolute;
+    top: 9.62px;
+    left: 517px;
+    z-index: 3;
+}
+.number3{
+    position: absolute;
+    top: 0.38px;
+    right: 166px;
+    z-index: 3;
+}
+.line {
+    position: absolute;
+    top: 16.62px;
+    left: 196.11px;
+    z-index: 1
+}
+.confetti{
+    position: absolute;
+    bottom: 126.37px;
+    right: -162px;
+}
+.dot1{
+    position: absolute;
+    top: 23.62px;
+    left: 182px;
+    z-index: 2;
+}
+.dot2{
+    position: absolute;
+    top:  23.62px;
+    left: 517px;
+    z-index:2 ;
+}
+.dot3{
+    position: absolute;
+    top: 10px;
+    left: 865px;
+    z-index: 2;
+}
+.step__title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.price__title{
+    margin: 27px 0 8px;
+}
+.apply__title{
+    margin: 14px 0;
+}
+.covered__title{
+    margin: 29px 0 8px;
+}
+.step__desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ACB4BF;
+}
+.steps__btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 35.62px;
+}
+/* Steps section */
+
+/* Free section */
+.free{
+    height: 882px;
+    padding: 148px 0 164px;
+    background: #F9F5F2;
+}
+.free__img{
+    position: relative;
+}
+.free__img img{
+    position: relative;
+    z-index: 22;
+}
+.free__img svg{
+    position: absolute;
+    top: -35px;
+    left: -45px;
+    z-index: 1;
+}
+.free__left_btn{
+    position: absolute;
+    bottom: -25px;
+    right: 44px;
+    width: 307px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #1D253C;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+    border-radius: 5px;
+    z-index: 33;
+}
+.free__right{
+    padding: 99.63px 0 0 102px;
+}
+.free__title{
+    font-size: 44px;
+    margin: 30px 0 24px;
+    width: 496px;
+    font-weight: 500;
+}
+.free__desc{
+    font-family:'Roboto', sans-serif;
+    width: 455px;
+}
+.free__right_btn{
+    color: #007189;
+    margin-top: 23px;
+}
+/* Free section */
+
+/* Cards section */
+.cards{
+    height: 616px;
+    background: #FFFFFF;
+    padding: 160.63px 0 132.38px;
+}
+.cards__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.cards__card{
+    position: relative;
+    width: 260px;
+    height: 323px;
+    padding: 40px 4px 35px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card__calculator{
+    background: rgba(169, 216, 255, 0.3);;
+}
+.card__term{
+    background: rgba(255, 174, 104, 0.3);
+}
+.card__pricing{
+    background: rgba(250, 82, 64, 0.3);
+}
+.card__insurance{
+    background: rgba(18, 111, 133, 0.3);
+}
+.cards__title{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+}
+.cards__desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.cards__link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.card__calculator .cards__title,.card__calculator .cards__link{
+    color: #7CAFDD;
+}
+.card__calculator .cards__desc{
+    color: #5A6482;
+}
+.card__calculator svg{
+    fill: #6EB0E1;
+}
+.card__term .cards__title,.card__term .cards__link{
+     color: #E79751;
+ }
+.card__term .cards__desc{
+    color: #5A6482;
+    margin-top: -42px;
+}
+.card__term svg{
+    fill:#F4943F;
+}
+.card__pricing .cards__title,.card__pricing .cards__link{
+    color: #FA5240;
+}
+.card__pricing .cards__desc{
+    color:#5A6482 ;
+}
+.card__pricing svg{
+    fill:#FF3F31;
+}
+.card__insurance .cards__title,.card__insurance .cards__link{
+    color: #126F85;
+}
+.card__insurance .cards_desc{
+    color: #5A6482;
+    margin-top: -41px;
+}
+.card__insurance svg{
+    fill:#007189;
+}
+/* Cards section */
+
+/* Cet-started */
+.get-started{
+    height: 382px;
+    padding: 107px 0 85px;
+    background: #E5F3FE;
+    text-align: center;
+}
+.get-started_desc{
+    margin: 8px 0 39px;
+}
+.get-started{
+    position: relative;
+}
+.get-started__btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 39px;
+}
+
+.man__umb{
+    position: absolute;
+    bottom: 0;
+    left: 64px;
+}
+.child{
+    position: absolute;
+    bottom: 0;
+    right: 252px;
+}
+/* Cet-started */
+
+/* Footer_top section */
+.footer__top{
+    height: 380px;
+    background: #FFFFFF;
+    padding: 75px 0 40px 1px;
+}
+.footer__desc{
+    font-family: 'Roboto', sans-serif;
+    width: 357px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5A6482;
+    margin: 33px 0 22px;
+}
+.footer__inp{
+    width: 214px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.footer__btn{
+    width: 84px;
+    height: 60px;
+    background: #126F85;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border-left: none;
+}
+.footer__btn svg{
+    margin-left: 5px;
+}
+.footer__icons{
+    color:#5A6482;
+    margin-top: 28px;
+}
+.fa-brands{
+    margin-right: 34px;
+}
+
+.footer__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1D253C;
+    margin-bottom: 22px;
+}
+.footer__link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+    margin-bottom: 19px;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+}
+.footer__nav:not(:last-child){
+    margin-right: 103px;
+}
+.footer__bottom{
+    height: 80px;
+    background: #F8F8F8;
+}
+.footer__bottom .container{
+    height: 100%;
+}
+.footer__bottom_desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+}
+.footer__bottom_button{
+    width: 161px;
+    height: 44px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1D253C;
+}
+
+
+/* Footer_top section */
